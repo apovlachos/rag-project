@@ -35,11 +35,10 @@ Top-3 results
 LLM
    ↓
 Answer
-```
+
 
 ## Files
 
-```text
 documents/
     pandas.txt
     python.txt
@@ -48,28 +47,43 @@ documents/
 ingestion.py
 rag.py
 requirements.txt
-```
+
 
 ## How to run
 
 Install the packages:
 
-```bash
 pip install -r requirements.txt
-```
 
 Run:
 
-```bash
 python rag.py
-```
+
 
 Then write a question.
 
 Example:
 
-```text
 What is Spark?
-```
+
 
 The application finds related information from the documents and gives an answer.
+
+## Architecture
+
+```text
+Documents
+   ↓
+Chunks
+   ↓
+Embeddings
+   ↓
+PostgreSQL + pgvector
+   ↓
+Question
+   ↓
+Top-3 relevant chunks
+   ↓
+Ollama
+   ↓
+Answer
