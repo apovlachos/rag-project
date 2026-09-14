@@ -1,0 +1,5 @@
+Apache Spark is a distributed data processing framework.
+
+Spark can process large datasets across multiple machines.
+
+PySpark is the Python API for Apache Spark.

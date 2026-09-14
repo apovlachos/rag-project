@@ -1,0 +1,5 @@
+Pandas is a Python library for working with structured data.
+
+It can be used to clean, transform and analyze datasets.
+
+Pandas is commonly used in data analysis and data engineering.

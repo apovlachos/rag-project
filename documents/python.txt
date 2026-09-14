@@ -1,0 +1,8 @@
+Python is a popular programming language.
+It is widely used in data engineering and data analysis.
+
+Pandas is a Python library used for working with structured data.
+It can be used to clean, transform and analyze datasets.
+
+NumPy is a Python library for numerical computing.
+It is often used together with Pandas in data analysis.
